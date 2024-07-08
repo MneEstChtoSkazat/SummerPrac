@@ -3,6 +3,5 @@ opencv-python==4.10.0.84
 pillow==10.4.0
 ply==3.11
 PyQt5==5.15.10
-sip @ file:///C:/b/abs_edevan3fce/croot/sip_1698675983372/work
 torch==1.11.0
 wincertstore==0.2
