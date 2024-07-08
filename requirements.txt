@@ -1,13 +1,8 @@
-certifi @ file:///C:/b/abs_55jxithrm3/croot/certifi_1717618077850/work/certifi
 numpy==2.0.0
 opencv-python==4.10.0.84
-packaging @ file:///C:/b/abs_c3vlh0z4jw/croot/packaging_1720101866539/work
 pillow==10.4.0
 ply==3.11
 PyQt5==5.15.10
-PyQt5-sip @ file:///C:/b/abs_c0pi2mimq3/croot/pyqt-split_1698769125270/work/pyqt_sip
 sip @ file:///C:/b/abs_edevan3fce/croot/sip_1698675983372/work
-tomli @ file:///C:/Windows/TEMP/abs_ac109f85-a7b3-4b4d-bcfd-52622eceddf0hy332ojo/croots/recipe/tomli_1657175513137/work
 torch==1.11.0
-typing_extensions @ file:///C:/b/abs_0as9mdbkfl/croot/typing_extensions_1715268906610/work
 wincertstore==0.2
