@@ -49,13 +49,13 @@ class ImageApp(QMainWindow):
         self.setCentralWidget(central_widget)
 
         self.upload_button.clicked.connect(self.upload_image)
-        self.camera_button.clicked.connect(lambda: capture_from_webcam(self))  # Изменили вызов метода
-        self.negative_button.clicked.connect(lambda: show_negative(self))  # Изменили вызов метода
-        self.average_button.clicked.connect(lambda: average_image(self))  # Изменили вызов метода
-        self.rectangle_button.clicked.connect(lambda: draw_rectangle(self))  # Изменили вызов метода
-        self.red_channel_button.clicked.connect(lambda: show_color_channel(self, 'red'))  # Изменили вызов метода
-        self.green_channel_button.clicked.connect(lambda: show_color_channel(self, 'green'))  # Изменили вызов метода
-        self.blue_channel_button.clicked.connect(lambda: show_color_channel(self, 'blue'))  # Изменили вызов метода
+        self.camera_button.clicked.connect(lambda: capture_from_webcam(self))  
+        self.negative_button.clicked.connect(lambda: show_negative(self))  
+        self.average_button.clicked.connect(lambda: average_image(self))  
+        self.rectangle_button.clicked.connect(lambda: draw_rectangle(self))  
+        self.red_channel_button.clicked.connect(lambda: show_color_channel(self, 'red'))  
+        self.green_channel_button.clicked.connect(lambda: show_color_channel(self, 'green'))  
+        self.blue_channel_button.clicked.connect(lambda: show_color_channel(self, 'blue'))  
 
     def upload_image(self):
         file_path, _ = QFileDialog.getOpenFileName(self, "Open Image", "", "Image files (*.jpg *.png)")
