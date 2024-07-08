@@ -81,14 +81,14 @@ def show_color_channel(self, channel):
             messagebox.showerror("Error", "Invalid color channel")
             return
 
-        # Если текущий канал совпадает с запрашиваемым, показываем исходное изображение
+        
         if self.channel_displayed == channel:
             self.display_image(self.original_image)
             self.image = self.original_image.copy()
             self.channel_displayed = None
             return
 
-        # Показываем выбранный цветной канал
+        
         open_cv_image = np.array(self.image.convert("RGB"))
         zeros = np.zeros_like(open_cv_image)
         channel_image = zeros.copy()
